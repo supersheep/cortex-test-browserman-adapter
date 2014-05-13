@@ -1,0 +1,22 @@
+{
+  "name": "cortex-test-browserman-adapter",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserman-client": "0.0.9"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "express": "^4.2.0",
+    "mocha": "^1.18.2",
+    "sockjs": "^0.3.8",
+    "socket.io-client": "^0.9.16",
+    "socket.io": "^0.9.16"
+  }
+}
