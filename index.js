@@ -22,7 +22,6 @@ function BrowsermanAdapter(config){
 util.inherits(BrowsermanAdapter,events.EventEmitter);
 
 BrowsermanAdapter.prototype.test = function(){
-    console.log(this.browser)
     this.emit("log", util.format("connect to %s", this.browserman.serverAddress));
     var test = this.browserman.test({
         requirement: {
