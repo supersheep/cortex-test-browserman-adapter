@@ -6,8 +6,10 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha test"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/supersheep/cortex-test-browserman-adapter.git"
+  },
   "dependencies": {
     "browserman-client": "0.1.0"
   },
@@ -17,5 +19,14 @@
     "mocha": "^1.18.2",
     "socket.io-client": "^0.9.16",
     "socket.io": "^0.9.16"
-  }
+  },
+  "author": {
+    "name":"spud",
+    "email":"supersheepxjy@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/supersheep/cortex-test-browserman-adapter/issues"
+  },
+  "homepage": "https://github.com/supersheep/cortex-test-browserman-adapter"
 }
