@@ -1,7 +1,7 @@
 {
   "name": "cortex-test-browserman-adapter",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.2.0",
+  "description": "cortex test adapter for browserman",
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha test"
@@ -11,7 +11,7 @@
     "url": "git://github.com/supersheep/cortex-test-browserman-adapter.git"
   },
   "dependencies": {
-    "browserman-client": "0.1.0"
+    "browserman-client": "^0.1.2"
   },
   "devDependencies": {
     "chai": "^1.9.1",
@@ -21,8 +21,8 @@
     "socket.io": "^0.9.16"
   },
   "author": {
-    "name":"spud",
-    "email":"supersheepxjy@gmail.com"
+    "name": "spud",
+    "email": "supersheepxjy@gmail.com"
   },
   "license": "ISC",
   "bugs": {
